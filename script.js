@@ -5,7 +5,7 @@
 const playlists = {
 
     truck: {
-        image: "./assets/images/truck-home.png",
+        image: "./truck-home.png",
 
         category: "TRUCK WALE BHAIYA RADIO",
 
@@ -25,7 +25,7 @@ const playlists = {
 
 
     salon: {
-        image: "./assets/images/salon-home.png",
+        image: "./salon-home.png",
 
         category: "DELUXE SALOON",
 
@@ -45,7 +45,7 @@ const playlists = {
 
 
     classical: {
-        image: "./assets/images/classical-home.png",
+        image: "./classical-home.png",
 
         category: "CLASSICAL INDIA",
 
@@ -65,7 +65,7 @@ const playlists = {
 
 
     old: {
-        image: "./assets/images/old-home.png",
+        image: "./old-home.png",
 
         category: "OLD IS GOLD",
 
