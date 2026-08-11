@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desi Safar</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="hero">
+
+        <!-- BACKGROUND -->
+        <img
+            id="heroImage"
+            src="./assets/images/truck-home.png"
+            class="background-image"
+            alt="Desi Safar"
+        >
+
+        <div class="image-overlay"></div>
+
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+
+            <span class="time" id="liveTime">10:42 PM</span>
+
+            <strong class="brand">
+                DESI SAFAR
+            </strong>
+
+            <a
+                id="spotifyTop"
+                href="https://open.spotify.com/playlist/0iT5gTODhpUFGSwqGZUpdG"
+                target="_blank"
+                class="spotify-link"
+            >
+                Spotify ↗
+            </a>
+
+        </header>
+
+
+        <!-- HERO CONTENT -->
+        <section class="hero-content">
+
+            <p id="category">
+                TRUCK WALE BHAIYA RADIO
+            </p>
+
+            <h1 id="title">
+                रास्ता लंबा है।<br>
+                गाने पुराने हैं।
+            </h1>
+
+            <span id="subtitle">
+                सफ़र वही • गाने वही • यादें नई
+            </span>
+
+        </section>
+
+
+        <!-- PLAYLIST BUTTONS -->
+        <div class="playlist-switcher">
+
+            <button
+                class="playlist active"
+                data-playlist="truck"
+            >
+                🚛 Truck Wale Bhaiya
+            </button>
+
+            <button
+                class="playlist"
+                data-playlist="salon"
+            >
+                ✂️ Deluxe Saloon
+            </button>
+
+            <button
+                class="playlist"
+                data-playlist="classical"
+            >
+                🪕 Classical India
+            </button>
+
+            <button
+                class="playlist"
+                data-playlist="old"
+            >
+                📻 Old Is Gold
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- MUSIC SECTION -->
+
+    <section class="music-section">
+
+        <div class="music-heading">
+
+            <p id="musicCategory">
+                TRUCK WALE BHAIYA
+            </p>
+
+            <h2 id="musicTitle">
+                Indian Truck Driver Music
+            </h2>
+
+            <span id="musicDescription">
+                Long roads • Old songs • Good vibes
+            </span>
+
+        </div>
+        <section class="mood-section">
+
+    <p class="section-label">CHOOSE YOUR DESI MOOD</p>
+
+    <h2>What are we listening to?</h2>
+
+    <div class="mood-grid">
+
+        <button data-playlist="truck">
+            <span>🚛</span>
+            <strong>Long Drive</strong>
+            <small>Truck Wale Bhaiya</small>
+        </button>
+
+        <button data-playlist="salon">
+            <span>✂️</span>
+            <strong>Fresh Cut</strong>
+            <small>Deluxe Saloon</small>
+        </button>
+
+        <button data-playlist="classical">
+            <span>🪕</span>
+            <strong>Shaam Ke Sur</strong>
+            <small>Classical India</small>
+        </button>
+
+        <button data-playlist="old">
+            <span>📻</span>
+            <strong>Purani Yaadein</strong>
+            <small>Old Is Gold</small>
+        </button>
+
+    </div>
+
+</section>
+        
+
+        <!-- SPOTIFY -->
+
+        <div class="spotify-container">
+
+            <iframe
+                id="spotifyFrame"
+                src="https://open.spotify.com/embed/playlist/0iT5gTODhpUFGSwqGZUpdG"
+                width="100%"
+                height="352"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+            </iframe>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
